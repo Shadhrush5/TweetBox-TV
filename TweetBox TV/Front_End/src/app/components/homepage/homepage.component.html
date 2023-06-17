@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Engine</title>
+    <link rel="stylesheet" type="text/css" href="homepage.component.css">
+    <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header-container">
+      <h1 class="header">TweetBox TV</h1>
+    </div>
+    <div class="search-container">
+      <form id="search-form">
+        <!-- <input type="text" id="search-input" placeholder="What's up, doc?"> -->
+        <input id="search-input" placeholder="What's up, doc?" type="text" name="SearchBox" [(ngModel)]="searchBox">
+
+        <button type="submit" (click)="loadtvShowsLists()">Search</button>
+      </form>
+    </div>
+    <div class="col">
+      <div class="custom-radio-button">
+        <input type="radio" class="radio" name="searchMethod" value="lucene" id="lucenex" [(ngModel)]="selectionValue"checked />
+        <label class="custom-label" for="lucenex" [ngStyle]="{color:'white'}">LUCENE</label>
+        <input type="radio" class="radio" name="searchMethod" value="BERT" [(ngModel)]="selectionValue" id="BERTy" />
+        <label class="custom-label" for="BERTy" [ngStyle]="{color:'white'}">BERT</label>
+      </div>
+    </div>  
+  </body>
+</html>

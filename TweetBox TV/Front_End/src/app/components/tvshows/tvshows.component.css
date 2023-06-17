@@ -1,0 +1,51 @@
+.user-img{
+    vertical-align: top;
+}
+.tweet-details{
+    margin-left: 2vw;
+}
+.column-margin{
+    margin-left: 5vw;
+}
+.user-image{
+    width: 2vw;
+}
+.small-font{
+    font-size: 0.7rem;
+    margin-bottom: 0rem;
+    color:rgb(12, 157, 241)
+}
+.inline-style{
+    display: inline;
+}
+.margin-style{
+    margin-left: 0.5vw;
+}
+.container-margin{
+    margin-bottom: 4vh;
+}
+.p-margin{
+    margin-bottom: 0rem;
+}
+.span-margin{
+    margin-left: 2vw;
+}
+.td-width{
+    width: 25vw ;
+}
+.user-inline-style{
+    margin-left: 1vw;
+    display: inline;
+}
+.medium-font{
+    font-size: 0.8rem;
+}
+.score-right{
+    float: right;
+    font-size: 0.7rem;
+    margin-top: 0.85vh;
+    color: rgb(12, 157, 241);
+}
+.table-align{
+    width: 100%;
+}
