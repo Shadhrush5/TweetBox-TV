@@ -1,6 +1,9 @@
 # TweetBox-TV
 Discover TweetBox TV a TV Show Tweet Analyzer: Collect, index &amp; explore tweets about your favorite shows. Powerful search and captivating visuals bring TV show discussions to life. Dive into a world of tweets, insights, and connection.
-<img width="562" alt="image" src="https://github.com/Shadhrush5/TweetBox-TV/assets/119898772/a5c2d378-2e9e-4546-a196-178536f78ad9">
+
+<img width="562" alt="Screenshot 2023-06-17 at 5 45 10 PM" src="https://github.com/Shadhrush5/TweetBox-TV/assets/119898772/c925b003-f751-4a7f-9d47-ed623fac991b">
+
+
 
 
 # Backend
@@ -9,7 +12,9 @@ Discover TweetBox TV a TV Show Tweet Analyzer: Collect, index &amp; explore twee
 2. Install Tweepy
 
 ## Twitter Crawling Architecture
-<img width="405" alt="image" src="https://github.com/Shadhrush5/TweetBox-TV/assets/119898772/1d776995-444a-4d57-8bd5-4ee0902d5434">
+
+<img width="405" alt="Screenshot 2023-06-17 at 5 41 15 PM" src="https://github.com/Shadhrush5/TweetBox-TV/assets/119898772/089ff6f2-3c17-4ce8-a4ee-4c9d69aab437">
+
 
 ## Components
 
@@ -61,7 +66,8 @@ We index the tweets using Lucene's default settings for text analysis and indexi
 (Example: python3 retreive.py 'What does the phrase winter is coming means?')
 
 ### BERT
-<img width="465" alt="image" src="https://github.com/Shadhrush5/TweetBox-TV/assets/119898772/336da32b-ed4e-4c05-b8dc-8e8ee2798bd2">
+<img width="465" alt="Screenshot 2023-06-17 at 6 13 40 PM" src="https://github.com/Shadhrush5/TweetBox-TV/assets/119898772/89d58cb9-e79b-41a1-8549-dfa07b1a78bf">
+
 
 We convert the query to an embedding using the same pre-trained BERT model and search the index for the closest embeddings to the query. We retrieve the top 10 tweets with the closest embeddings to the query. We evaluate the quality of the rankings by manually inspecting the top 10
 results and checking how relevant they are to the query.
@@ -79,7 +85,8 @@ embeddings for each sentence using the "embedding_creator" function, and returns
 
 # Front End
 
-<img width="468" alt="image" src="https://github.com/Shadhrush5/TweetBox-TV/assets/119898772/9912686e-0f8c-4e96-b60e-788f61e9d9f4">
+<img width="468" alt="Screenshot 2023-06-17 at 6 16 07 PM" src="https://github.com/Shadhrush5/TweetBox-TV/assets/119898772/740379b1-fcbb-4a5e-a5f5-a9f6af4bfb34">
+
 
 ## Front-end Development with Angular
 
@@ -106,7 +113,8 @@ Angular is a popular JavaScript framework for building dynamic web applications.
 
 ## Output would look like
 
-<img width="468" alt="image" src="https://github.com/Shadhrush5/TweetBox-TV/assets/119898772/aeb70417-0cf8-4902-8af8-24b240431836">
+<img width="468" alt="Screenshot 2023-06-17 at 6 22 25 PM" src="https://github.com/Shadhrush5/TweetBox-TV/assets/119898772/9d448677-98c2-42fa-8ae2-831c96b2f126">
+
 
 
 
