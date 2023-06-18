@@ -23,7 +23,7 @@ The configuration files for this application contain the API keys, consumer key,
 
 ### twitter_api.py
 This file performs the following steps:
-1. Itimportsnecessarylibraries:csv,tweepy,pandas,andrandom.
+1. It imports necessary libraries : csv,tweepy,pandas,andrandom.
 2. It imports API keys and access tokens from a separate configuration file
 named config.py.
 3. It retrieves an integer value from command-line arguments, which
@@ -31,11 +31,11 @@ represents the index of the title of a TV show to search for in a CSV file named
 tv_shows.csv.
 4. It reads the CSV file using pandas and retrieves the TV show's title from the
 column named "title" at the given index.
-5. ItcreatesanewCSVfilewiththenameoftheTVshowfollowedby'.csv'.
+5. It creates a new CSV file with the name of the TV show followed by '.csv'.
 6. It defines two functions, one to generate random latitude and longitude
 coordinates (as a substitute for missing geolocations), and the other to
 remove spaces from a string.
-7. ItopensthenewlycreatedCSVfileandinitializesaCSVwriter.
+7. It opens the newly created CSV file and initializes a CSV writer.
 8. It creates a Twitter API object and uses it to search for tweets that contain
 the TV show's title as a query.
 9. For each tweet returned in the search, it extracts the tweet's creation date,
@@ -61,7 +61,7 @@ same directory as data.json
 ### Lucene
 We index the tweets using Lucene's default settings for text analysis and indexing. We perform a search for the query "Game of Thrones" using Lucene's default scoring algorithm and retrieve the top 10 results. We evaluate the quality of the rankings by manually inspecting the top 10 results and checking how relevant they are to the query.
 
-1. Executethefileindex.pyforindexingusinglucenewhichislocated in the same folder as data.json
+1. Execute the file index.py for indexing using lucene which is located in the same folder as data.json
 2. Execute the file retrieve.py with argument as query enclosed in single quotes for retrieving the top tweet results.
 (Example: python3 retreive.py 'What does the phrase winter is coming means?')
 
